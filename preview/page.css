@@ -1,0 +1,75 @@
+.overlay {
+  position: absolute;
+  background-color: white;
+  border-top: 2px solid ${color};
+}
+
+.phone {
+  width: 320px !important;
+  height: 333px !important;
+}
+
+.tablet {
+  width: 768px !important;
+  height: 530px !important;
+}
+
+.headline, .subheadline {
+  margin-left: 36px; 
+}
+
+.phone-headline {
+  font-size: 24px !important;
+}
+
+.phone-subheadline {
+  font-size: 18px !important;
+}
+
+.headline {
+  margin-top: 16px;
+  font-size: 36px;
+}
+
+.subheadline {
+  font-size: 28px;
+  margin-top: 5px;
+  color: #ce0f0f;
+}
+
+.preview {
+  left: 36px;
+  right: 36px;
+  bottom: 36px;
+  top: 115px;
+  position: absolute;
+  background-color: white;
+}
+
+.phone-preview {
+  top: 90px !important;
+}
+
+.preview-image {
+  height: 100% !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.play-icon {
+  height: 150px !important;
+  width: 150px;
+  left: 50%;
+  top: 50%;
+  margin-left: -75px;
+  margin-top: -75px;
+  position: absolute;
+}
+
+.phone-play-icon {
+  height: 80px !important;
+  width: 80px !important;
+  margin-left: -40px !important;
+  margin-top: -40px !important;
+}
