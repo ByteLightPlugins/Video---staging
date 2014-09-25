@@ -7,6 +7,10 @@
   border-top: 2px solid ${color};
 }
 
+.background {
+  background-color: #474747;
+}
+
 .phone {
   width: 320px !important;
   height: 333px !important;
