@@ -17,21 +17,21 @@ $('.play-icon').on('click', function(){
     $('video').addClass('phone')
   }
   
-  $('#demoVideo').removeClass('hidden');
+  $('#demoVideo2').removeClass('hidden');
   $('.overlay').addClass('hidden');
   
-  var video = $('#demoVideo video')[0]
+  var video = $('#demoVideo2 video')[0]
   var playVideo = function(){
     video.play();
     $('video').off('pause').on('pause', function(){
-      $('#demoVideo').addClass('hidden');
+      $('#demoVideo2').addClass('hidden');
       $('.overlay').removeClass('hidden');
     });
   }
   
   if(video.readyState > 0){
     setTimeout(function(){
-      $('#demoVideo video')[0].load()
+      $('#demoVideo2 video')[0].load()
     }, 300);
     setTimeout(playVideo, 600);
   }
