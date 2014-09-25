@@ -13,8 +13,11 @@
 }
 
 .tablet {
-  width: 768px !important;
+  width: 640px !important;
   height: 530px !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .headline, .subheadline {
