@@ -18,14 +18,14 @@ $('.play-icon').on('click', function(){
   }
   
   $('#demoVideo2').removeClass('hidden');
-  $('.overlay').addClass('hidden');
+  $('.background').addClass('hidden');
   
   var video = $('#demoVideo2 video')[0]
   var playVideo = function(){
     video.play();
     $('video').off('pause').on('pause', function(){
       $('#demoVideo2').addClass('hidden');
-      $('.overlay').removeClass('hidden');
+      $('.background').removeClass('hidden');
     });
   }
   
