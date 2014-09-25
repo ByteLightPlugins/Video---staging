@@ -7,10 +7,6 @@
   border-top: 2px solid ${color};
 }
 
-video {
-  left: auto !important;
-}
-
 .phone {
   width: 320px !important;
   height: 333px !important;
