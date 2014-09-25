@@ -24,6 +24,11 @@
   margin-right: auto;
 }
 
+.video-tablet {
+  width: 768px !important;
+  height: 530px !important;
+}
+
 .headline, .subheadline {
   margin-left: 36px; 
 }

@@ -11,7 +11,7 @@ else{
 
 $('.play-icon').on('click', function(){
   if(BL.isTablet()){
-    $('video').addClass('tablet')
+    $('video').addClass('video-tablet')
   }
   else{
     $('video').addClass('phone')
