@@ -49,7 +49,7 @@
 .subheadline {
   font-size: 28px;
   margin-top: 5px;
-  color: #ce0f0f;
+  color: ${color};
 }
 
 .preview {
